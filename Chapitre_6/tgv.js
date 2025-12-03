@@ -1,3 +1,13 @@
+// *****************************************************************************************************************
+// Nom : tgv.js
+// Rôle : code javascript lié à la page HTML tgv (pour rendre la page intéractive)
+// Auteur : Emma BARETS
+// Version : V0.1 du 06/11/2025
+// Licence : réalisé dans le cadre du cours de Informatique Fondammentale 
+// Compilation : dans le même dossier que le fichier tgv.html
+// Usage : pour la page tgv.html
+// *****************************************************************************************************************
+
 const url = "https://data.sncf.com/api/explore/v2.1/catalog/datasets/regularite-mensuelle-tgv-aqst/records?limit=25";
 
 const container = document.getElementById("tableauTGV");

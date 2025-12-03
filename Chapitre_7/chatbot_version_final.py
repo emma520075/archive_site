@@ -1,3 +1,25 @@
+"""
+****************************************************************************************
+* Nom        : chatbot_version_final.py
+* Rôle       : Chatbot éducatif pour le cours d’Informatique Fondamentale de l’IED Paris 8.
+*             Permet de répondre aux questions sur le cours, les professeurs, les devoirs,
+*             le campus, ainsi que l’heure et la date. Interface graphique développée avec Tkinter.
+* Auteur     : Emma BARETS
+* Version    : Version finale du 03/12/2025
+* Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
+* Compilation: Exécuter via Python 3 (python chatbot_version_final.py)
+* Usage      : Interface graphique pour poser des questions et obtenir des réponses instantanées.
+* Modules    : 
+*             - tkinter : interface graphique
+*             - scrolledtext : zone de conversation défilante
+*             - messagebox : affichage de pop-ups
+*             - random : choix aléatoire des réponses
+*             - PIL (Image, ImageTk) : gestion des images (logo)
+*             - os : vérification de l’existence des fichiers
+*             - datetime : récupération de la date et de l’heure
+****************************************************************************************
+"""
+
 import tkinter as tk  # Importation de Tkinter pour créer l'interface graphique
 from tkinter import scrolledtext, messagebox  # Importation pour les zones de texte défilantes et les pop-ups
 import random  # Pour choisir aléatoirement des réponses

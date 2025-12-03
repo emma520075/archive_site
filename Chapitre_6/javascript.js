@@ -1,3 +1,13 @@
+/****************************************************************************************
+ * Nom        : javascript.js
+ * Rôle       : Fournit les fonctionnalités dynamiques et interactions pour la page HTML
+ * Auteur     : Emma BARETS
+ * Version    : V0.1 du 06/11/2025
+ * Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
+ * Compilation: Inclure via <script src="javascript.js"></script> dans la page HTML
+ * Usage      : Ajoute des interactions utilisateur, validation de formulaire, mini-jeux, etc.
+ ****************************************************************************************/
+
 // On attend que le DOM soit complètement chargé avant de manipuler les éléments
 document.addEventListener("DOMContentLoaded", function() {
 

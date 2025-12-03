@@ -1,3 +1,13 @@
+/******************************************************************************
+ * Nom        : css.css
+ * Rôle       : Feuille de style utilisée pour mettre en forme le CV
+ * Auteur     : Emma BARETS
+ * Version    : V0.1 du 18/10/2025
+ * Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
+ * Dépendances : index_resp.html (et éventuellement index.html)
+ * Usage      : Appliquer un style responsive et esthétique à la page du CV
+ ******************************************************************************/
+
 /* ----- Style général de la page ----- */
 body {
     background-color: indigo; /* Couleur de fond */

@@ -8,6 +8,17 @@
 </form>
 
 <?php
+/******************************************************************************
+ * Nom        : index.php
+ * Rôle       : Affiche le formulaire et les messages stockés en base MySQL
+ * Auteur     : Emma BARETS
+ * Version    : V0.1 du 25/10/2025
+ * Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
+ * Compilation : Interprété dans un serveur PHP local ou InfinityFree
+ * Dépendances : Requiert db.php pour la connexion MySQL
+ * Usage      : Page principale d'affichage (SQL) du livre d'or
+ ******************************************************************************/
+
 require 'db.php';
 
 $sql = "SELECT * FROM messages ORDER BY date_post DESC";

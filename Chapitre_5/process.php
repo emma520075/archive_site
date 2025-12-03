@@ -1,4 +1,15 @@
 <?php
+/******************************************************************************
+ * Nom        : process.php
+ * Rôle       : Traite les données envoyées par le formulaire HTML (SQL)
+ * Auteur     : Emma BARETS
+ * Version    : V0.1 du 26/10/2025
+ * Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
+ * Compilation : Interprété côté serveur via PHP
+ * Dépendances : Nécessite db.php et une base MySQL fonctionnelle
+ * Usage      : Enregistrement des messages dans la base de données SQL
+ ******************************************************************************/
+
 require 'db.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
