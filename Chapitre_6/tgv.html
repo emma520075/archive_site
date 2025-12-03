@@ -1,0 +1,34 @@
+<!--
+/**************************************************************************************
+ * Nom        : tgv.html
+ * Rôle       : Page HTML affichant le contenu du tableau TGV 
+ * Auteur     : Emma BARETS
+ * Version    : V0.1 du 03/12/2025
+ * Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
+ * Compilation: Ouvrir dans un navigateur ou depuis le site web (Netlify)
+ * Dépendance : fichier tgv.js 
+ * Usage      : Affichage des données TGV, formulaires et jeux interactifs
+ **************************************************************************************/
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Regularité Mensuelle TGV</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="tgv.js" defer></script>
+</head>
+<body>
+    <h1>Regularité Mensuelle TGV (25 premiers enregistrements)</h1>
+
+    <label for="filtreService">Filtrer par service :</label>
+    <select id="filtreService">
+        <option value="Tous">Tous</option>
+        <option value="National">National</option>
+        <option value="International">International</option>
+    </select>
+
+    <div id="tableauTGV"></div>
+</body>
+</html>
