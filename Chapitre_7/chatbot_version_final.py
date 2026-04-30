@@ -5,7 +5,7 @@
 *             Permet de répondre aux questions sur le cours, les professeurs, les devoirs,
 *             le campus, ainsi que l’heure et la date. Interface graphique développée avec Tkinter.
 * Auteur     : Emma BARETS
-* Version    : Version finale du 03/12/2025
+* Version    : Version finale du 17/01/2026
 * Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
 * Compilation: Exécuter via Python 3 (python chatbot_version_final.py)
 * Usage      : Interface graphique pour poser des questions et obtenir des réponses instantanées.
