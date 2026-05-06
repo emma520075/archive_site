@@ -1,0 +1,117 @@
+/******************************************************************************
+ * Nom        : css.css
+ * Rôle       : Feuille de style utilisée pour mettre en forme le CV
+ * Auteur     : Emma BARETS
+ * Version    : V0.1 du 18/10/2025
+ * Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
+ * Dépendances : index_resp.html (et éventuellement index.html)
+ * Usage      : Appliquer un style responsive et esthétique à la page du CV
+ ******************************************************************************/
+
+/* ----- Style général de la page ----- */
+body {
+    background-color: indigo; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    font-family: Arial, sans-serif; /* Police */
+    padding: 20px; /* Espace intérieur autour du contenu */
+}
+
+/* ----- Titres ----- */
+h1 {
+    text-align: center; 
+    padding: 20px;
+    color: yellow;
+    text-decoration: underline;
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+    clear: both; /* Permet d’éviter les chevauchements après un "float" */
+}
+
+h3 {
+    color: white;
+}
+
+/* ----- Paragraphes ----- */
+p {
+    text-align: left;
+    line-height: 1.5; 
+}
+
+/* ----- Liens hypertextes ----- */
+a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: white;
+}
+
+a:hover {
+    color: yellow; /* Change la couleur quand on passe la souris */
+}
+
+/* ----- Images ----- */
+img {
+    height: 250px; /* Taille pour les images */
+    border-radius: 10px; /* Coins légèrement arrondis*/
+    margin: 10px;
+}
+
+/* Centrer les images des sections */
+.images-exp, .images-passions, .photo {
+    text-align: center;
+}
+
+/* Centrer la vidéo */
+.video-container {
+    text-align: center;
+}
+
+/* ----- Organisation du contenu avec DIV ----- */
+.section {
+    background-color: rgba(255, 255, 255, 0.1); /* Légère transparence */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* ----- float ----- */
+.colonne-gauche {
+    float: left;
+    width: 45%;
+}
+
+.colonne-droite {
+    float: right;
+    width: 45%;
+}
+
+/* ----- Pour vider le float + éviter les chevauchements ----- */
+.clearfix {
+    clear: both;
+}
+
+/* ----- Tableau ----- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* ----- SPAN ----- */
+.highlight {
+    color: yellow; /* Met en évidence un mot */
+    font-weight: bold;
+}
+
+</body>
