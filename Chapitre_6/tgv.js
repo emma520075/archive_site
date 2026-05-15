@@ -2,7 +2,11 @@
 // Nom : tgv.js
 // Rôle : code javascript lié à la page HTML tgv (pour rendre la page intéractive)
 // Auteur : Emma BARETS
+<<<<<<< HEAD
 // Version : V0.1 du 06/11/2025
+=======
+// Version : V0.1 du 06/12/2025
+>>>>>>> 0ea5404255d1c2198d3bb81ebd09726a29caff16
 // Licence : réalisé dans le cadre du cours de Informatique Fondammentale 
 // Compilation : dans le même dossier que le fichier tgv.html
 // Usage : pour la page tgv.html

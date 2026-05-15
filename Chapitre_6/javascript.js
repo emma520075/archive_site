@@ -2,7 +2,11 @@
  * Nom        : javascript.js
  * Rôle       : Fournit les fonctionnalités dynamiques et interactions pour la page HTML
  * Auteur     : Emma BARETS
+<<<<<<< HEAD
  * Version    : V0.1 du 06/11/2025
+=======
+ * Version    : V0.1 du 06/12/2025
+>>>>>>> 0ea5404255d1c2198d3bb81ebd09726a29caff16
  * Licence    : Réalisé dans le cadre du cours d’Informatique Fondamentale
  * Compilation: Inclure via <script src="javascript.js"></script> dans la page HTML
  * Usage      : Ajoute des interactions utilisateur, validation de formulaire, mini-jeux, etc.
